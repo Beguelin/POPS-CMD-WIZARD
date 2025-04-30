@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 >nul
 setlocal enabledelayedexpansion
 set "hora_actual=%time:~0,5%"
 set "hora_actual=%hora_actual::=.%"
